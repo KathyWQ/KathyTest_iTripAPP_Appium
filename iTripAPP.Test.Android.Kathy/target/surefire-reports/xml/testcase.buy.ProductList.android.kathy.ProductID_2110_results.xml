@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Buy_Productlist"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="125.592">
+  <properties />
+  
+  
+            <testcase name="BuyProduct2110" time="125.592" classname="testcase.buy.ProductList.android.kathy.ProductID_2110" />
+      
+</testsuite>

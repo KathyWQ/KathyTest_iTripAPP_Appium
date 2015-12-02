@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [framework_testng]" allow-return-values="true">
+  <test name="TestMethods(failed)">
+    <classes>
+      <class name="testcase.buy.ProductList.android.kathy.ProductID_2466">
+        <methods>
+          <include name="BuyProduct2466"/>
+        </methods>
+      </class> <!-- testcase.buy.ProductList.android.kathy.ProductID_2466 -->
+      <class name="testcase.buy.ProductList.android.kathy.ProductID_2174">
+        <methods>
+          <include name="BuyProduct2174"/>
+        </methods>
+      </class> <!-- testcase.buy.ProductList.android.kathy.ProductID_2174 -->
+      <class name="testcase.buy.ProductList.android.kathy.ProductID_2110">
+        <methods>
+          <include name="BuyProduct2110"/>
+          <include name="Test_setUp"/>
+        </methods>
+      </class> <!-- testcase.buy.ProductList.android.kathy.ProductID_2110 -->
+      <class name="testcase.buy.ProductList.android.kathy.ProductID_2175">
+        <methods>
+          <include name="BuyProduct2175"/>
+        </methods>
+      </class> <!-- testcase.buy.ProductList.android.kathy.ProductID_2175 -->
+    </classes>
+  </test> <!-- TestMethods(failed) -->
+</suite> <!-- Failed suite [framework_testng] -->

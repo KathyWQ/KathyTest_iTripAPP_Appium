@@ -1,0 +1,8 @@
+							
+		        //产品详情-点击客户电话
+//		List <WebElement> clickljyd= getAppiumDriver().findElementsByClassName("android.widget.TextView");
+//					        clickljyd.get(9).getAttribute("text");
+//					        System.out.println('\n'+"产品详情页对应索引text值："+'\n'+clickljyd.get(9).getAttribute("text")); 
+//					        Thread.sleep(100);
+//					        clickljyd.get(9).click();		
+

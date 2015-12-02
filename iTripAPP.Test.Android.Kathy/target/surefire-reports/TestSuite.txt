@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 449.267 sec <<< FAILURE!
+BuyProduct2175(testcase.buy.ProductList.android.kathy.ProductID_2175)  Time elapsed: 40.146 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Kathy-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//android.view.View[contains(@content-desc,'更改旅行日期')]}
+Session ID: 09353786-bc24-492a-b10e-71aba82e179d
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, javascriptEnabled=true, appActivity=com.aoliday.android.phone.Main, browserName=Android, networkConnectionEnabled=true, noSign=true, desired={platformVersion=4.4.2, deviceName=PE-TL20, platformName=Android, appActivity=com.aoliday.android.phone.Main, noSign=true, unicodeKeyboard=true, resetkeyboard=true, appPackage=com.aoliday.android.phone}, resetkeyboard=true, locationContextEnabled=false, appPackage=com.aoliday.android.phone, platformVersion=5.0, databaseEnabled=false, deviceName=e313ee98, platformName=Android, webStorageEnabled=false, unicodeKeyboard=true, warnings={}, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at testcase.buy.ProductList.android.kathy.ProductID_2175.BuyProduct2175(ProductID_2175.java:49)
+
+BuyProduct2466(testcase.buy.ProductList.android.kathy.ProductID_2466)  Time elapsed: 95.816 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at testcase.buy.ProductList.android.kathy.ProductID_2466.BuyProduct2466(ProductID_2466.java:82)
+

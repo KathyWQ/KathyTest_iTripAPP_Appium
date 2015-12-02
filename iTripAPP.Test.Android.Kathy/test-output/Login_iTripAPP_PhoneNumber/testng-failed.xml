@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login_iTripAPP_PhoneNumber]">
+  <parameter name="EmailUser" value="kathy.wang@aoliday.com"/>
+  <parameter name="Email_PWD" value="111111"/>
+  <test name="Login_iTripAPP_PhoneNumber(failed)">
+    <parameter name="EmailUser" value="kathy.wang@aoliday.com"/>
+    <parameter name="Email_PWD" value="111111"/>
+    <classes>
+      <class name="testcase.login.android.kathy.Login_iTripAPP_Email">
+        <methods>
+          <include name="Login_iTripAPP_ForEmail" invocation-numbers="0"/>
+          <include name="Test_setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.login.android.kathy.Login_iTripAPP_Email -->
+    </classes>
+  </test> <!-- Login_iTripAPP_PhoneNumber(failed) -->
+</suite> <!-- Failed suite [Login_iTripAPP_PhoneNumber] -->

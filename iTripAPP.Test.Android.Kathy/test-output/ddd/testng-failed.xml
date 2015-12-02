@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ddd]" allow-return-values="true">
+  <test name="Login_iTripAPP_PhoneNumber(failed)">
+    <classes>
+      <class name="testcase.login.android.kathy.Login_iTripAPP_PhoneNumber">
+        <methods>
+          <include name="Login_iTripAPP_For_PhoneNumber"/>
+          <include name="Test_setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.login.android.kathy.Login_iTripAPP_PhoneNumber -->
+    </classes>
+  </test> <!-- Login_iTripAPP_PhoneNumber(failed) -->
+</suite> <!-- Failed suite [ddd] -->
